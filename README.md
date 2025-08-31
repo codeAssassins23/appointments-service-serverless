@@ -142,7 +142,7 @@ La aplicación fue desarrollada con **Node.js (TypeScript)** y **Serverless Fram
 
 Para iniciar la app en entorno local ejecuta: npm run dev
 
-# Ejecutar pruebas unitarias con Jest
+### Ejecutar pruebas unitarias con Jest
 
 ```bash
 npm run test
@@ -150,25 +150,25 @@ npm run test
 
 Para probar el comportamiento de los consumidores de eventos en tu entorno local, ejecuta:
 
-# -Consumer de citas PE
+### -Consumer de citas PE
 
 ```bash
 npx serverless invoke local -f appointmentConsumerPE --path events/sqs-pe.json
 ```
 
-# -Consumer de citas CL
+### -Consumer de citas CL
 
 ```bash
 npx serverless invoke local -f appointmentConsumerCL --path events/sqs-cl.json
 ```
 
-# -Consumer de cambios de estado
+### -Consumer de cambios de estado
 
 ```bash
 npx serverless invoke local -f statusConsumer --path events/status.json
 ```
 
-## Despliegue
+### Despliegue
 
 Para desplegar la solución en AWS:
 
@@ -176,3 +176,9 @@ Para desplegar la solución en AWS:
 npm install
 npm run deploy
 ```
+
+## 📘 Documentación SwaggerHub
+
+Consulta y prueba la API desde la documentación generada automáticamente:
+
+🔗 [Ver documentación SwaggerHub](https://app.swaggerhub.com/apis-docs/developersbravo/appointments-api/1.0.0)

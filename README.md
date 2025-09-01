@@ -6,7 +6,7 @@ La aplicación fue desarrollada con **Node.js (TypeScript)** y **Serverless Fram
 
 ---
 
-## 🚀 Flujo de la aplicación
+## Flujo de la aplicación
 
 1. **Agendamiento (POST /appointments)**
 
@@ -29,7 +29,7 @@ La aplicación fue desarrollada con **Node.js (TypeScript)** y **Serverless Fram
 
 ---
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Node.js v18+
 - AWS CLI configurado con perfil autorizado
@@ -37,7 +37,7 @@ La aplicación fue desarrollada con **Node.js (TypeScript)** y **Serverless Fram
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Lenguaje:** TypeScript (Node.js)
 - **Framework:** Serverless Framework
@@ -52,7 +52,7 @@ La aplicación fue desarrollada con **Node.js (TypeScript)** y **Serverless Fram
 
 ---
 
-## 🛠️ Servicios AWS utilizados
+## Servicios AWS utilizados
 
 - **API Gateway HTTP** → expone los endpoints REST.
 - **Lambda** → lógica de negocio.
@@ -66,7 +66,7 @@ La aplicación fue desarrollada con **Node.js (TypeScript)** y **Serverless Fram
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```bash
 ├── .env # Variables de entorno (MySQL, SG, Subnets, DynamoDB, etc.)
@@ -177,8 +177,8 @@ npm install
 npm run deploy
 ```
 
-## 📘 Documentación SwaggerHub
+## Documentación SwaggerHub
 
 Consulta y prueba la API desde la documentación generada automáticamente:
 
-🔗 [Ver documentación SwaggerHub](https://app.swaggerhub.com/apis-docs/developersbravo/appointments-api/1.0.0)
+[Ver documentación SwaggerHub](https://app.swaggerhub.com/apis-docs/developersbravo/appointments-api/1.0.0)
